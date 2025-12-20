@@ -162,6 +162,11 @@ h1 {
   margin-top: auto;
 }
 
+.hero-box a:hover,
+.hero-box a:focus {
+  color: #3350e9;
+}
+
 .hero-img {
   display: flex;
 }
@@ -201,6 +206,12 @@ h1 {
   margin-top: 40px;
 }
 
+.about-text button:hover,
+.about-text button:focus {
+  background-color: #1f3cd4;
+  cursor: pointer;
+}
+
 /* __________CATALOG__________ */
 
 .catalog-list {
@@ -233,6 +244,49 @@ h1 {
   font-size: 14px;
   line-height: 1.28;
   color: rgba(12, 12, 12, 0.5);
+}
+
+/* __________CONTACT US__________ */
+
+.contact-us {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0c0c0c;
+  border-radius: 30px;
+  align-items: flex-start;
+  padding: 83px 0;
+}
+
+.contact-us h2 {
+  width: 690px;
+  margin-bottom: 0;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91;
+}
+
+.story-accent {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.contact-us button {
+  color: #fbfbfb;
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+  width: 160px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  padding: 15px 0;
+  background-color: #0c0c0c;
+}
+
+.contact-us button:hover,
+.contact-us button:focus {
+  color: #0c0c0c;
+  background-color: #fbfbfb;
+  cursor: pointer;
 }
 
 /* __________FOOTER__________ */
