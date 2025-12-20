@@ -330,8 +330,8 @@ h1 {
 
 .sale-text {
   width: 398px;
-  padding-left: 60px;
-  padding-top: 60px;
+  margin: 0 auto;
+  margin-top: 60px;
   align-items: flex-start;
 }
 
@@ -432,4 +432,87 @@ h1 {
 
 footer .container {
   background-color: #0c0c0c;
+  border-radius: 30px;
+  padding: 40px 40px 28px;
+  margin-bottom: 32px;
+}
+
+footer .logo {
+  color: #fbfbfb;
+  font-size: 20px;
+}
+
+footer a,
+footer p,
+footer h2 {
+  color: #fbfbfb;
+}
+
+.footer-up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav ul {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+footer .container h2 {
+  width: 523px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.14;
+  text-align: center;
+}
+
+.footer-up > :last-child {
+  align-self: flex-start;
+  font-size: 14px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  padding: 15px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+}
+
+.footer-down {
+  margin-top: 126px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 1.28;
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(251, 251, 251, 0.1);
+}
+
+.footer-down ul {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-privacy {
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-privacy p,
+.footer-privacy a {
+  font-size: 14px;
+  line-height: 1.28;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.footer-privacy ul {
+  display: flex;
+  gap: 20px;
 }
